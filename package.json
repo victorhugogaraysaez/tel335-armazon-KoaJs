@@ -1,0 +1,21 @@
+{
+  "name": "koa-skeleton",
+  "version": "1.0.0",
+  "description": "server side example",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development backpack",
+    "build": "backpack build",
+    "start": "cross-env NODE_ENV=production node build/main.js"
+  },
+  "dependencies": {
+    "backpack-core": "^0.8.4",
+    "cross-env": "^5.2.1",
+    "koa": "^2.14.2",
+    "koa-bodyparser": "^4.4.0",
+    "koa-favicon": "^2.1.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0"
+  }
+}
